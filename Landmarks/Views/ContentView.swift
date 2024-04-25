@@ -17,3 +17,5 @@ struct ContentView: View {
     ContentView()
         .environment(ModelData())
 }
+
+// OWARI //
