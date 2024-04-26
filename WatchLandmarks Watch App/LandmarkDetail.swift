@@ -1,8 +1,6 @@
 /*
 See the LICENSE.txt file for this sample’s licensing information.
 
-Abstract:
-A detail view for a landmark suitable for display on a Watch.
 */
 
 import SwiftUI
