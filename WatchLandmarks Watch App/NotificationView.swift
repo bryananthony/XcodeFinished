@@ -1,19 +1,16 @@
-//
-//  NotificationView.swift
-//  WatchLandmarks Watch App
-//
-//  Created by MacBook Pro on 26/04/24.
-//  Copyright © 2024 Apple. All rights reserved.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+A view that displays incoming notifications.
+*/
 
 import SwiftUI
-
 
 struct NotificationView: View {
     var title: String?
     var message: String?
     var landmark: Landmark?
-
 
     var body: some View {
         VStack {
@@ -22,13 +19,10 @@ struct NotificationView: View {
                     .scaledToFit()
             }
 
-
             Text(title ?? "Unknown Landmark")
                 .font(.headline)
 
-
             Divider()
-
 
             Text(message ?? "You are within 5 miles of one of your favorite landmarks.")
                 .font(.caption)
@@ -36,11 +30,9 @@ struct NotificationView: View {
     }
 }
 
-
 #Preview {
     NotificationView()
 }
-
 
 #Preview {
     NotificationView(

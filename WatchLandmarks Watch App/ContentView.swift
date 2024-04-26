@@ -1,14 +1,12 @@
-//
-//  ContentView.swift
-//  WatchLandmarks Watch App
-//
-//  Created by MacBook Pro on 26/04/24.
-//  Copyright © 2024 Apple. All rights reserved.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+The root view for the app on Apple Watch.
+*/
 
 import SwiftUI
 import UserNotifications
-
 
 struct ContentView: View {
     var body: some View {
@@ -21,7 +19,6 @@ struct ContentView: View {
             }
     }
 }
-
 
 #Preview {
     ContentView()
